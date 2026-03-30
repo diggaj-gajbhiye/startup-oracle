@@ -1,0 +1,57 @@
+# 🔮 StartupOracle — AI Startup Success Predictor
+
+A beautiful, dark-themed Streamlit app that uses **Grok-3** to predict whether your startup idea will succeed or fail, based on real statistics and research.
+
+## 🚀 Setup & Run
+
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Run the app
+```bash
+streamlit run app.py
+```
+
+### 3. Get your Grok API Key
+- Visit [console.x.ai](https://console.x.ai)
+- Create an account and generate an API key
+- Paste it in the app's API key field
+
+---
+
+## 📊 What It Analyzes
+
+| Input | Description |
+|-------|-------------|
+| Startup Idea | Full description of your product |
+| Industry | Sector / vertical |
+| Target Market | B2B, B2C, geography |
+| Problem & UVP | Core problem and differentiation |
+| Business Model | Revenue model |
+| Team | Size and founder experience |
+| Funding | Stage and capital available |
+| Competition | Competitive landscape |
+| Moat | Defensibility strategy |
+| GTM | Go-to-market approach |
+
+## 📈 Output Scores
+
+- **Success Score** (0–100)
+- **1-Year & 5-Year Survival Probability**
+- **Market, Team, Timing, Moat Scores**
+- **Strengths & Weaknesses** (with research backing)
+- **Key Risks**
+- **Comparable Successes & Failures**
+- **Actionable Advice**
+- **Statistical Insight** from CB Insights, Startup Genome, etc.
+
+---
+
+## 🎨 Design
+
+- Dark space theme with purple accents
+- Syne + Space Mono typography
+- Animated gradients and glassmorphism cards
+- Fully responsive
